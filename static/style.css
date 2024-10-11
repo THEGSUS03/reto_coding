@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff00;
+    padding: 1em;
+}
+
+.nav-logo {
+    flex: 1;
+}
+
+.nav-links {
+    flex: 0.5; /* Ajusta el ancho según sea necesario */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro con opacidad del 30% */
+    text-align: center; /* Centra el texto dentro del div */
+    padding: 10px; /* Agrega un poco de espacio interno */
+    border-radius: 15px;
+}
+
+.nav-links li {
+    display: inline; /* Asegúrate de que los elementos de la lista estén en línea */
+    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+}
+
+.nav-links li a {
+    color: rgb(255, 255, 255); /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-time {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img-comida {
+    flex: 1;
+    margin-bottom: 20px; /* Agrega separación entre la imagen y el párrafo */
+}
+
+.text-and-date {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-and-date p {
+    margin-bottom: 20px;
+}
+
+.text-and-date input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-image: none;
+    padding: 1em;
+    text-align: center;
+    background-size: cover;
+    background-image: url(images/fondo.png);
+    box-shadow:20;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.info {
+    text-align: center;
+    padding: 20px 0;
+    height: 25vh;
+    background-color:gainsboro ;
+}
+
+.info-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.info-button button {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0.5, 0.5);
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-button button:hover {
+    background-color: #0b5ed7;
+}
+
+.date-input {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-image{
+    width:  120px;
+    height: 120px;
+}
+
+#time-display{
+    color: white;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+div#info1,div#info2,div#info3,div#info4,div#info5 {
+    margin: 20px auto; /* Centra los divs horizontalmente */
+    width: 750px;
+    height: 190px;
+    background-color: rgb(130, 122, 122);
+    border-radius: 17px; 
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+div#info11,div#info22,div#info33,div#info44,div#info55{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+div#texto{
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+#btn1,#btn2,#btn3#btn4,#btn5 {
+    height: 25px;
+    margin-top: 110px;
+    width: 160px;
+    margin-right: 20px;
+    background-color: rgb(39, 226, 208);
+    padding: 3px 20px;
+    font-size: 12px;
+    box-shadow: 2.5px 2.5px rgb(0, 0, 0);
+    color: white;
+}
+
+
+div#pat1,div#pat2,div#pat3,div#pat4,div#pat5  {
+    margin-top: 50px;
+    margin-right: -70px;
+
+}
+
+div#cosa1 {
+    display: flex;
+    margin-left: -70px;
+}
+
+div#fotopata {
+    margin-top: -15px;
+}
+
+#intereses {
+    width: 150px;
+    height: 30px;
+}
+
+div#cosa2 {
+    display: flex;
+    margin-left: -220px;
+    margin-top: -10x;
+}
+#buscar_mascota {
+    height: 25px;
+    width: 260px;
+}
+
+#chinche {
+    margin-top: -10px;
+}
+
+div#p2 {
+    margin-left: 120px;
+    color: white;
+}
+

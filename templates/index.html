@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="nav">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="https://liceoandresbellopm.cl"> <!-- Enlace al logo -->
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="logo-image" alt="Logo">
+                </a>
+            </div>
+            <div class="links">
+                <ul class="nav-links">
+                    <li> <b><a href="https://liceoandresbellopm.cl">Inicio</a></b></li>
+                    <li> <b><a href="#">Acerda de nosotros</a></b></li>
+                    <li><a href="https://liceoandresbellopm.cl/contacto.php?">Contacto</a></li>
+                    <li>
+                        <h1 id="time-display">{{ time }}</h1> <!-- Elemento para mostrar la hora -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="info">
+        <div class="info-text">
+            <h1>Comedor LAB</h1>
+        </div>
+        <div class="info-button">
+            <button> IR AL MENU</button>
+        </div>
+    </div>
+
+
+    <div id="info1">
+        <div id="info11">
+            <img src="{{ url_for('static', filename='images/descarga.jpeg') }}" height="160" width="250px">
+            <div id="texto">
+                <h3>Arroz con Huevo</h3>
+                <p>1 porción (315 g) de Arroz con Huevo contiene 455 calorías (kcal), 16.7 g grasas, 54.5 g
+                    carbohidratos y 19.2 g proteínas.</p>
+            </div>
+        </div>
+    </div>
+    <div id="info2">
+        <div id="info22">
+            <img src="{{ url_for('static', filename='images/JUEVES.jpeg') }}" height="160" width="250px">
+            <div id="texto">
+                <h3>Pure con Pollo</h3>
+                <p>1 porción (386 g) de Pollo Asado con Puré contiene 485 calorías (kcal), 20.1 g grasas, 36.8 g
+                    carbohidratos y 38.3 g proteínas. </p>
+            </div>
+        </div>
+    </div>
+    <div id="info3">
+        <div id="info33">
+            <img src="{{ url_for('static', filename='images/MIERCOLES.jpeg') }}" height="160" width="250px">
+            <div id="texto">
+                <h3>Lentejas</h3>
+                <p>1 taza (200 g) de Lentejas contiene 232 calorías (kcal), 0.8 g grasas, 40.3 g carbohidratos y 18.0 g
+                    proteínas </p>
+            </div>
+        </div>
+    </div>
+    <div id="info4">
+        <div id="info44">
+            <img src="{{ url_for('static', filename='images/MARTES.jpeg') }}" height="160" width="250px">
+            <div id="texto">
+                <h3>Arroz con croquetas de Merluza</h3>
+                <p>
+                    1 porción (260 g) de Arroz con croquetas de Merluza contiene 546 calorías (kcal), 12.7 g grasas,
+                    70.0 g carbohidratos y 36.1 g proteínas.</p>
+            </div>
+        </div>
+    </div>
+    <div id="info5">
+        <div id="info55">
+            <img src="{{ url_for('static', filename='images/LUNES.jpeg') }}" height="160" width="250px">
+            <div id="texto">
+                <h3>Porotos</h3>
+                <p>1 porción (216 g) de Porotos con Riendas contiene 419 calorías (kcal), 7.0 g grasas, 72.7 g
+                    carbohidratos y 18.8 g proteínas.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <footer>
+        <p>
+            <b>© 2024 Comedor LAB. Todos los derechos reservados.</b>
+        </p>
+    </footer>
+    <!-- Incluye el archivo JavaScript externo -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
